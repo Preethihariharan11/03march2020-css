@@ -1,0 +1,114 @@
+#big
+{
+    border: 5px solid black;
+    width: 98vw;
+    height: 97vh;
+    background-image: url("https://images.template.net/wp-content/uploads/2014/09/Desktop-Background-27-Copy.jpg");
+    display: inline-block;
+    text-align: center;
+}
+#big > div:nth-child(1)
+{
+    /* top: 2vh; */ 
+    /* left: 85vw; */
+    position:absolute;
+    width: 10vw;
+    height: 10vh;
+    border: 3px solid #000;
+    background-color: #a92dda;
+    /* background-image: url(https://images.template.net/wp-content/uploads/2014/09/Desktop-Background-27-Copy.jpg); */
+    box-shadow: 5px 10px #888888;
+}
+
+#big >div:nth-child(2)
+{
+    position: absolute;
+    /* top: 2vh; */
+    left: 85vw;
+    width: 10vw;
+    height: 10vh;
+    border: 3px solid #000;
+    background-color: #fffe12;
+    /* background-image: url(https://images.template.net/wp-content/uploads/2014/09/Desktop-Background-27-Copy.jpg); */
+    box-shadow: 5px 10px #888888;
+}
+#big > div:nth-child(3)
+{
+    position: absolute;
+    /* border-radius: 50%; */
+    top: 25vh;
+    left: 17vw;
+    width: 10vw;
+    height: 10vh;
+    /* background-image: url(https://lh3.googleusercontent.com/proxy/BpPUQGpdj0_LEToP4nnV2hfix9tGs18H9T3…h2B6035Ex0btPRoLnPyVGSk8GNW76sEw6oR7LllKHBlnIJ1VAdU6xuOgwdFXewx47Q50wXCGj6); */
+    background-color: rgb(238, 30, 23);
+    box-shadow: 5px 10px #888888;
+}
+#big > div:nth-child(4)
+{
+    position: absolute;
+    top: 51vh;
+    left: 58vw;
+    width: 10vw;
+    height: 10vh;
+    border: 3px solid #000;
+    /* background-image: url(https://www.iiwmta.com/wp-content/uploads/2018/07/585791ffa147edc.jpg); */
+    background-color: blue;
+    box-shadow: 5px 10px #888888;
+}
+#big > div:nth-child(5)
+{
+    position: absolute;
+    top: 75vh;
+    left: 36vw;
+    width: 10vw;
+    height: 10vh;
+    border: 3px solid #000;
+    background-color: rgb(191, 63, 127,0.5);
+}
+#big >div:nth-child(6)
+{
+    position: absolute;
+    top: 75vh;
+    left: 50vw;
+    width: 10vw;
+    height: 10vh;
+    border: 3px solid #000;
+    background-color: rgb(191, 63, 127,0.5);
+}
+#big > div:nth-child(7)
+{
+    position: absolute;
+    top: 51vh;
+    left: 28vw;
+    width: 10vw;
+    height: 10vh;
+    border: 3px solid #000;
+    /* background-image: url(https://www.iiwmta.com/wp-content/uploads/2018/07/585791ffa147edc.jpg); */
+    background-color: blue;
+    box-shadow: 5px 10px #888888;
+}
+#big > div:nth-child(8)
+{
+    position: absolute;
+    /* border-radius: 50%; */
+    top: 25vh;
+    left: 70vw;
+    width: 10vw;
+    height: 10vh;
+    /* background-image: url(https://lh3.googleusercontent.com/proxy/BpPUQGpdj0_LEToP4nnV2hfix9tGs18H9T3…h2B6035Ex0btPRoLnPyVGSk8GNW76sEw6oR7LllKHBlnIJ1VAdU6xuOgwdFXewx47Q50wXCGj6); */
+    background-color: rgb(238, 30, 23);
+    box-shadow: 5px 10px #888888;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #big
+     {
+        background: rgb(79, 197, 233);
+        border: 5px solid black;
+        width: 98vw;
+        height: 97vh;
+     }
+  }
+
+
